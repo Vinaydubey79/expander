@@ -1,57 +1,68 @@
--- import: vinaydubey79.github.io/expander/assets
+-- ftd.column:
+padding.px: 20
+border-width.px: 5
+background.solid: #90EE90
+spacing.fixed.px: 12
+width: fill-container
+height: fill-container
 
+-- box: What is your name?
 
+My name is Vinay Dubey.
 
--- ds.page: Welcome to your [FASTN site](https://fastn.dev/)
+-- box:
 
-FASTN Blank Package Template Repo
+-- box.title:
 
-🧑‍🚀 **Seasoned traveler?** update this file. Enjoy!
+Wats up?
 
+-- box.body:
 
---- ds.image: doc-site
-src: $assets.files.doc-site-example.png
-width: fill
+Nothing man...
 
+-- box:
 
---- ds.h1: 🚀 Project Structure
+-- end: ftd.column
 
-Inside of your FASTN project, you'll see the following folders and files:
+-- component box:
+caption title: ABC
+body body: XYZ
+boolean $open: true
 
+-- ftd.column:
+border-width.px: 10
+spacing.fixed.px: 12
+width: fill-container
+padding.px: 00
 
---- ds.code:
-lang:
+-- ftd.row:
+width: fill-container
+spacing: space-between
+padding.px: 00
+border-bottom-width.px: 2
+$on-click$: $toggle($value = $box.open)
 
-/
-├── .build/
-│   └── index.html
-├── .packages/
-│   └── fifthtry.github.io/
-│   	└── All downloaded dependencies
-│   	
-├── FASTN.ftd
-├── index.ftd
-└── README.md
+-- ftd.text: $box.title
 
+-- ftd.text: X
+color: red
+if: { box.open }
 
+-- ftd.text: O
+color: yellow
+if: { !box.open }
 
---- ds.h1: 🧞 Commands
+-- end: ftd.row
 
-All commands are run from the root of the project, from a terminal:
+-- ftd.text: $box.body
+padding.px: 00
+if: { box.open }
 
---- ds.code:
-lang:
+-- end: ftd.column
 
-=======================================================================
-| Command                | Action                                     |
-| :--------------------- | :----------------------------------------- |
-| fastn build              | FASTN builder installs all `FASTN` dependencies|
-| fastn serve              | Starts local dev server at available port  |
-|                        | `localhost:8000`                           |
-=======================================================================
+-- end: box
 
+-- void toggle(value):
+boolean $value:
 
---- ds.h1: 👀 Want to learn more?
-
-Feel free to check [our documentation](https://fastn.dev/) or jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
-
+value = !value;
