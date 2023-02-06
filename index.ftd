@@ -6,27 +6,27 @@ spacing.fixed.px: 12
 width: fill-container
 height: fill-container
 
--- box: What is your name?
+-- box: What is this project all about?
 
-My name is Vinay Dubey.
+This is an expander projector based on ftd language.
 
 -- box:
 
 -- box.title:
 
-Wats up?
+What is it's advantage?
 
 -- box.body:
 
-Nothing man...
+This so easy and well understood to learn that being a non technical person I was able to build this code.
 
 -- box:
 
 -- end: ftd.column
 
 -- component box:
-caption title: ABC
-body body: XYZ
+caption title: Where to find more about ftd?
+body body: You can visit the website https://ftd.dev/ and learn more about it. Thanks!
 boolean $open: true
 
 -- ftd.column:
