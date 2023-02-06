@@ -1,7 +1,7 @@
 -- ftd.column:
 padding.px: 20
 border-width.px: 3
-background.solid: #ffc0eb
+background.solid: #6d7f6d
 spacing.fixed.px: 10
 width: fill-container
 height: fill-container
@@ -30,7 +30,7 @@ body body: You can visit the website https://ftd.dev/ and learn more about it. T
 boolean $open: true
 
 -- ftd.column:
-border-width.px: 10
+border-width.px: 12
 spacing.fixed.px: 12
 width: fill-container
 
