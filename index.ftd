@@ -1,8 +1,8 @@
 -- ftd.column:
 padding.px: 20
-border-width.px: 5
-background.solid: #90EE90
-spacing.fixed.px: 12
+border-width.px: 3
+background.solid: #FB6F51
+spacing.fixed.px: 10
 width: fill-container
 height: fill-container
 
@@ -33,13 +33,11 @@ boolean $open: true
 border-width.px: 10
 spacing.fixed.px: 12
 width: fill-container
-padding.px: 00
 
 -- ftd.row:
 width: fill-container
 spacing: space-between
-padding.px: 00
-border-bottom-width.px: 2
+border-bottom-width.px: 3
 $on-click$: $toggle($value = $box.open)
 
 -- ftd.text: $box.title
@@ -49,7 +47,7 @@ color: red
 if: { box.open }
 
 -- ftd.text: O
-color: yellow
+color: green
 if: { !box.open }
 
 -- end: ftd.row
