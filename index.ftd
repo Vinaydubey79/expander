@@ -30,8 +30,8 @@ body body: You can visit the website https://ftd.dev/ and learn more about it. T
 boolean $open: true
 
 -- ftd.column:
-border-width.px: 12
-spacing.fixed.px: 12
+border-width.px: 5
+spacing.fixed.px: 8
 width: fill-container
 
 -- ftd.row:
