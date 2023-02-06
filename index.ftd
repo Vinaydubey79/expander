@@ -1,7 +1,7 @@
 -- ftd.column:
 padding.px: 20
 border-width.px: 3
-background.solid: #FB6F51
+background.solid: #ff7f50
 spacing.fixed.px: 10
 width: fill-container
 height: fill-container
