@@ -1,7 +1,7 @@
 -- ftd.column:
-padding.px: 20
-border-width.px: 3
-background.solid: #0000EE
+padding.px: 15
+border-width.px: 5
+background.solid: light purple
 spacing.fixed.px: 10
 width: fill-container
 height: fill-container
@@ -37,7 +37,7 @@ width: fill-container
 -- ftd.row:
 width: fill-container
 spacing: space-between
-border-bottom-width.px: 3
+border-bottom-width.px: 5
 $on-click$: $toggle($value = $box.open)
 
 -- ftd.text: $box.title
