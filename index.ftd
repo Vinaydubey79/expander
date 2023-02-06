@@ -1,32 +1,35 @@
 -- ftd.column:
 padding.px: 15
 border-width.px: 5
-background.solid: light purple
+background.solid: #EA9167
 spacing.fixed.px: 10
 width: fill-container
 height: fill-container
 
--- box: What is this project all about?
+-- box: Any new research in bio-science?
 
-This is an expander projector based on ftd language.
+The material can be injected intravenously and has potential application in heart attacks, traumatic brain injury and more.
 
 -- box:
 
 -- box.title:
 
-What is it's advantage?
+Could you explain a bit??
 
--- box.body:
+-- box.body: 
 
-This so easy and well understood to learn that being a non technical person I was able to build this code.
+A new biomaterial that can be injected intravenously, reduces inflammation in tissue and promotes cell and tissue repair.
+The biomaterial was tested and proven effective in treating tissue damage caused by heart attacks in both rodent and large animal models.
+Researchers also provided proof of concept in a rodent model that the biomaterial could be beneficial to patients with traumatic
+brain injury and pulmonary arterial hypertension.
 
 -- box:
 
 -- end: ftd.column
 
 -- component box:
-caption title: Where to find more about ftd?
-body body: You can visit the website https://ftd.dev/ and learn more about it. Thanks!
+caption title: Where I can find more about updates in science?
+body body: You can visit the website https://www.sciencedaily.com/ and learn more about it. Thanks!
 boolean $open: true
 
 -- ftd.column:
